@@ -129,4 +129,3 @@ const questions = [
                                 },
 ]
 
-//function saveData for local storage

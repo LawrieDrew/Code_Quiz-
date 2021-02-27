@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YOU MADE IT</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="/end.js"></script>
+</head>
+
+<body>
+ <div class="container">
+     <div id="end" class="flex-center flex-column">
+         <h1 id="finalScore">0</h1>
+         <form>
+             <input
+             type="text"
+             name="username"
+             id="username"
+             placeholder="username"
+             />
+<button
+ type="submit" 
+ class="btn" 
+ id="saveScoreBtn"
+        onclick="saveHighScore(event)"
+         >
+         Save
+        </button>
+</form>
+<a class="btn" href="/index.html">Play Again</a>
+</div>
+</div>
+</body>
+</html>
+
