@@ -22,7 +22,6 @@ body {
     background-color: hsl(var(--hue), 100%, 50%);
 }
 
-
 .container {
     width: 800px;
     max-width: 80%;
@@ -61,6 +60,12 @@ body {
     background-color: black;
 }
 
+.btn[disabled]:hover {
+cursor: not-allowed;
+box-shadow: none;
+transform: none;
+}
+
 .btn.correct {
     --hue: var(--hue-correct);
     color: black;
@@ -86,23 +91,25 @@ body {
     display: none;
 }
 
-.hud-item {
-
-    
-}
-
 form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+width: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+margin: 20px 0;
+
 }
 
 input {
     margin-bottom: 1rem;
-    width: 20rem;
+    width: 5rem;
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba();
+    box-shadow: 0 0 10px 2px;
+}
+
+input::placeholder {
+    font-size: 1.5rem;
 }
