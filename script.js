@@ -9,48 +9,48 @@ let shuffledQuestions, currentQuestionIndex
 
 const questions = [
     {
-        question: 'What is a sprocket?',
+        question: 'Which is a single variable used to store different elements?',
         answers: [
-            { text: 'Ya Moms', correct: true },
-            {text: 'A Rocket', correct: false},
-            {text: 'You made that up', correct: true},
-            {text: 'Yeah, its not a thing', correct: true}
+            { text: 'A vector', correct: false },
+            {text: 'An array', correct: true},
+            {text: 'An aardvark', correct: false},
+            {text: 'An arrow', correct: false}
         ]
     },
     {
-        question: 'Whats my name?',
+        question: 'Which of the following is true about JavaScript?',
         answers: [
-                { text: 'That Bitch', correct: true},
-                { text: 'Fab-Bitch', correct: true},
-                { text: 'Laurie', correct: true},
-                { text: 'Lauren', correct: false}
+                { text: 'It was a predecessor to cursive handwriting', correct: false},
+                { text: 'It was named for coffee induced writing', correct: false},
+                { text: 'It is a programming language', correct: true},
+                { text: 'It is a word processor', correct: false}
                 ]
             },
             {
-                question: 'Should you ever cook bacon naked?',
+                question: 'Which is a series of interconnected things or events?',
                 answers: [
-                        { text: 'I mean', correct: false},
-                        { text: 'Yeah do it', correct: false},
-                        { text: 'Never', correct: true},
-                        { text: 'Lets make eggs too!', correct: false}
+                        { text: 'A concontion', correct: false},
+                        { text: 'A correlation ', correct: false},
+                        { text: 'A concatenation', correct: true},
+                        { text: 'A contracted combination', correct: false}
                         ]
                     },
                      {
-                        question: 'Whats is my dogs name?',
+                        question: 'Whats is not a Javascript Data Type?',
                         answers: [
-                                { text: 'Chewy', correct: true},
-                                { text: 'Pookie', correct: true},
-                                { text: 'Pookeets', correct: true},
-                                { text: 'Rod Stewart', correct: true}
+                                { text: 'Inconceivable', correct: false},
+                                { text: 'Boolean', correct: true},
+                                { text: 'String', correct: true},
+                                { text: 'Undefined', correct: true}
                                 ]
                             },
                             {
-                                question: 'Whats is my dogs name?',
+                                question: 'Is Javascript your nightmare come true?',
                                 answers: [
-                                        { text: 'Chewy', correct: true},
-                                        { text: 'Pookie', correct: true},
-                                        { text: 'Pookeets', correct: true},
-                                        { text: 'Rod Stewart', correct: true}
+                                        { text: 'Yes', correct: true},
+                                        { text: 'Also yes', correct: true},
+                                        { text: 'Yes, too', correct: true},
+                                        { text: 'Yup' correct: true}
                                         ]
                                     },
     ]
