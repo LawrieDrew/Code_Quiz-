@@ -1,6 +1,5 @@
-# 04 Web APIs: Code Quiz
+Assignment 4 Code Quiz
 
-##
 You know that Big Quiz they have at the end of every year in the U.K.?
 Usually Noel Fielding and Ricard Ayoade are on it and its hilarious?
 Well this isn't that.
@@ -14,12 +13,9 @@ It runs in the browser with scores saved on local storage (I know, I'm also impr
 
 Behold! Quizzasaurus! 
 
-##
+---
 
-![portfolio demo](./Assets/04-web-apis-homework-demo.gif)
-
-
-![homepage](C:\Users\Laure\Code_Quiz-\images\Code_Quiz.jpg)
+![screenshot](images/Code_Quiz.jpg)
 
 Here is the deployed website URL:
 
