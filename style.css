@@ -22,6 +22,12 @@ body {
     background-color: hsl(var(--hue), 100%, 50%);
 }
 
+#hud {
+
+display: flex;
+justify-content: space-around;
+
+}
 .container {
     width: 800px;
     max-width: 80%;
@@ -92,18 +98,21 @@ transform: none;
 }
 
 form {
-width: 500px;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 10px;
-margin: 20px 0;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black ;
+    box-shadow: 0 0 10px 2px;
 }
 
 input {
     margin-bottom: 1rem;
-    width: 5rem;
+    width: 20rem;
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
