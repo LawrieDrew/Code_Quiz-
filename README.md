@@ -19,7 +19,7 @@ Behold! Quizzasaurus!
 
 Here is the deployed website URL:
 
-![Github URL](https://github.com/LawrieDrew/Code_Quiz-.git)) 
+![Github URL](https://github.com/LawrieDrew/Code_Quiz-.git) 
 
 ---
 
