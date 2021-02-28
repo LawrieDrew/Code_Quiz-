@@ -50,7 +50,7 @@ const questions = [
                                         { text: 'Yes', correct: true},
                                         { text: 'Also yes', correct: true},
                                         { text: 'Yes, too', correct: true},
-                                        { text: 'Yup' correct: true}
+                                        { text: 'Yup', correct: true}
                                         ]
                                     },
     ]
@@ -59,7 +59,7 @@ startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
         currentQuestionIndex++
         setNextQuestion()
-})
+});
 
 function startGame() {
     console.log('Started')
@@ -108,7 +108,7 @@ function resetState() {
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild
-        (answerButtonsElement.firstChild)
+        (answerButtonsElement.firstChild)}
     };
 
 function selectAnswer(e) {
@@ -117,7 +117,8 @@ function selectAnswer(e) {
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
-    })
+})
+
 if (shuffledQuestions.length > currentQuestionIndex + 1 ) {
     nextButton.classList.remove('hide')
 } else {
@@ -133,8 +134,5 @@ function setStatusClass(element, correct){
         }
     
     }
-    
-    function clearStatusClass(element) {
-        element.classList.remove('correct')
-        element.classList.remove('wrong')
-    }
+
+location.replace('end.hmtl');
